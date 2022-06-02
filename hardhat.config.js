@@ -9,7 +9,8 @@ module.exports = {
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${process.env.PROJECT_ID}`,
-      accounts: [process.env.PRIVATE_KEY]
+      accounts: [process.env.PRIVATE_KEY],
+      balance: 100000000000000
     }
   }
 };
